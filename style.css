@@ -1,0 +1,260 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  /* regular 400,medium 500 semibold 600 bold 700 */
+}
+.main
+{
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+    
+}
+.sidebar
+{   width: 340px;
+    background-color:#000000;
+    border-radius: 1rem;
+}
+.main-content
+{
+   background-color: #181818;
+   flex:1;
+   border-radius: 1rem;
+   overflow: auto;
+}
+.music-player
+{   
+    position: fixed;
+    bottom:0px;
+    width: 100%;
+    height: 72px;
+    background-color:black;
+}
+.nav-option a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 1rem;
+ 
+}
+.nav
+{
+    border-radius: 1rem;
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 6.3rem;
+    
+    padding: 0.5rem 0.75rem;
+
+}
+.nav-option
+{
+    line-height: 2.5rem;
+    padding: 0.25rem 0.75rem;
+}
+.nav-option i{
+    font-size: 1.25rem;
+}
+
+.nav-option .hi {
+  color: rgb(134, 131, 131); 
+  transition: color 0.3s ease; 
+}
+.nav-option:hover .hi {
+  color: white
+}
+.lib-option img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.library
+{   
+    border-radius: 1rem;
+    background-color: #181818; 
+    
+    height: 100%;
+    margin-top: 0.4rem;
+    padding: 0.75rem 0.75rem;
+    
+}
+.icons {
+   font-size: 1.25rem;
+   opacity: 0.5;
+   transition: all 0.3s ease;
+   margin-left: 2.5rem;
+   display: flex;                          
+   align-items: center;    
+   cursor: pointer;        
+}
+.icons:hover{
+   opacity:1;
+}
+.lib-option{
+   opacity: 0.5;
+   transition: all 0.3s ease;
+}
+.lib-option:hover{
+ opacity: 1;
+
+}
+.icons i
+{
+margin-left: 1rem;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+     
+}
+
+.main-content
+{
+    margin-left: 0.5rem;
+}
+
+
+.box
+{
+    margin: 0.75rem 0 1.65rem 0;
+    padding: 1rem 1.25rem;
+    width: 17.4rem;
+    height: 8.75rem;
+    background-color: #232222;
+    border-radius: 0.75rem;
+    
+}
+
+.box-p1,.box-p2
+{
+    line-height: 2.35rem;
+}
+
+.box-p1
+{
+    font-size: 1.12rem;
+    font-weight: 600;
+}
+.box-p2
+{
+    font-size: 0.85rem;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+
+.box2
+{
+    margin: 0.75rem 0 1.65rem 0;
+    padding: 1rem 1.25rem;
+    width: 17.4rem;
+    height: 11rem;
+    background-color: #232222;
+    border-radius: 0.75rem;
+    
+}
+
+.box2 .box-p1
+{
+    font-size: 1.12rem;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-bottom: 0.7rem;
+}
+
+.badge
+{   
+    font-size: 0.8rem;
+    font-weight: 700;
+    background-color: white;
+    padding: 0.25rem 1rem;
+    border:none;
+    border-radius: 6rem;
+    height: 2rem;
+    transition: all 0.2s ease;
+    width: fit-content;
+    margin-top: 1rem;
+}
+
+.box button:hover
+{
+    transform: scale(1.05);
+}
+
+.fa
+{
+    font-size: 1.1rem;
+}
+
+
+.sticy-nav
+{
+position: sticky;
+top: 0;
+background-color: #181818;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0.35rem 0;
+margin-left: 0.80rem;
+
+}
+.cards
+{
+    color: #232222;
+}
+
+.sticy-nav img{
+    margin-top: 1rem;
+  
+}
+
+.sticy-nav-options
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.80rem;
+}
+
+.fa-user
+{
+    margin-top: 1rem;
+}
+
+.sticy-nav-options button
+{
+    margin-right: 1rem;
+}
+
+.badge2
+{
+background-color: black;
+color: white;
+}
+
+
+@media(max-width: 1000px)
+{
+    .hide
+    {
+        display: none;
+    }
+}
