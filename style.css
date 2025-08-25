@@ -265,32 +265,107 @@ h2 {
 }
 
 .music-player {
-  display: flex;
   position: fixed;
+  display: flex;
   bottom: 0px;
   width: 100%;
-  height: 65px;
+  height: 85px;
   background-color: black;
-  padding:1rem;
   align-items: center;
-}
-.music-player img{
-  border-radius: 0.3rem;
-  height: 100%;
+  
 }
 
-.song-info
+.album
 {
-  margin-left:1rem;
-  display: flex;
-  flex-direction:column;
-  font-size: 0.85rem;
-  line-height: 0.3rem;
-  justify-content: center;
-  margin-top: 0.8rem;
-  margin-right: 1rem;
+  
+  display:flex;
+  height:100%;
+  width:30%;
+  align-items:center;
+  padding: 0.55rem;
+  box-sizing: border-box;
+  
+}
+.album img{
+  height: 100%;
+  border-radius: 0.35rem;
 }
 
-.song-info p{
-  opacity: 0.6;
+.album-info
+{
+  display: flex;
+  height: 75%;
+  flex-direction:column;
+  justify-content: center;
+  justify-content: space-around;
+  margin-left: 1rem;
+  
 }
+.album-info p{
+  margin: 0;
+  font-size: 0.75rem;
+}
+.album-info p:nth-child(2)
+{
+  opacity: 0.75;
+}
+
+.player
+{
+  display: flex;
+  flex-direction: column;
+
+  width: 40%;
+   
+   align-items: center;
+}
+.player-control
+{
+  width:45%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly ;
+  align-items: center;
+  
+}
+.player-control-icons
+{
+  height: 0.8rem;
+}
+.mid-icon
+{
+  height: 2rem;
+}
+.control
+{
+  width:30%;
+}
+
+.side-mid
+{
+  height: 0.9rem;
+}
+.playback-bar
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.prograss_bar
+{
+  
+  margin-top: 0.2rem;
+  height: 0.2rem;
+  width: 80%;
+}
+span
+{
+  font-size: 0.8rem;
+}
+
+.player-control img:hover{
+  
+  transform: scale(1.07);
+} 
