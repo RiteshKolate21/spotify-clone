@@ -27,53 +27,59 @@
     <!--font-->
 
     <!-- Open Graph / Twitter Card Meta Tags -->
-    <meta name="description" content="Spotify Clone built with HTML & CSS. Sidebar, navbar, and more." />
+    <meta
+      name="description"
+      content="Spotify Clone built with HTML & CSS. Sidebar, navbar, and more."
+    />
     <meta property="og:title" content="Spotify Clone" />
-    <meta property="og:description" content="A Spotify Clone built with HTML & CSS." />
-    <meta property="og:image" content="https://riteshkolate21.github.io/spotify-clone/images/preview.png" />
-    <meta property="og:url" content="https://riteshkolate21.github.io/spotify-clone/" />
+    <meta
+      property="og:description"
+      content="A Spotify Clone built with HTML & CSS."
+    />
+    <meta
+      property="og:image"
+      content="https://riteshkolate21.github.io/spotify-clone/images/preview.png"
+    />
+    <meta
+      property="og:url"
+      content="https://riteshkolate21.github.io/spotify-clone/"
+    />
     <meta property="og:type" content="website" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Spotify Clone" />
-    <meta name="twitter:description" content="A Spotify Clone built with HTML & CSS." />
-    <meta name="twitter:image" content="https://riteshkolate21.github.io/spotify-clone/images/preview.png" />
-
-
-  
-
-
-
-
-
-
-
-
+    <meta
+      name="twitter:description"
+      content="A Spotify Clone built with HTML & CSS."
+    />
+    <meta
+      name="twitter:image"
+      content="https://riteshkolate21.github.io/spotify-clone/images/preview.png"
+    />
 
     <style>
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
- 
-}
+      /* width */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #35333300; 
-  border-radius: 0.5rem;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #f5f5f525; 
-  border-radius: 1rem;
-}
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #35333300;
+        border-radius: 0.5rem;
+      }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #e8e8e86c; 
-}
-</style>
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #f5f5f525;
+        border-radius: 1rem;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #e8e8e86c;
+      }
+    </style>
   </head>
 
   <body>
@@ -90,10 +96,8 @@
           </div>
         </div>
 
-        
         <div class="library">
           <div class="options">
-
             <div class="lib-option nav-option">
               <img src="./images/library_icon.png" alt="" />
               <a href="#">Your Library</a>
@@ -106,49 +110,109 @@
           </div>
 
           <!--box-->
-            <div class="lib-box">
-                <div class="box">
-                    <div class="box-p1">Create your first playlist</div>
-                    <div class="box-p2">It's easy, we'll help you</div>
-                    <button class="badge">Create playlist</button>
-                </div>
-
-                <div class="box2">
-                    <div class="box-p1">Let's find some podcast to follow</div>
-                    <div class="box-p2">we'll keap you updated on new episods</div>
-                    <button class="badge">Browse podcasts</button>
-                </div>
-
+          <div class="lib-box">
+            <div class="box">
+              <div class="box-p1">Create your first playlist</div>
+              <div class="box-p2">It's easy, we'll help you</div>
+              <button class="badge">Create playlist</button>
             </div>
+
+            <div class="box2">
+              <div class="box-p1">Let's find some podcast to follow</div>
+              <div class="box-p2">we'll keap you updated on new episods</div>
+              <button class="badge">Browse podcasts</button>
+            </div>
+          </div>
           <!--box end-->
-       
-       
         </div>
       </div>
 
       <!--main -->
       <div class="main-content">
         <div class="sticy-nav">
-            <div class="c">
-                <img src="./images/backward_icon.png" alt="backword">  
-                <img src="./images/forward_icon.png" class="hide" alt="forword"> 
-            </div>
-         <div class="sticy-nav-options">
-             <button class="badge hide">Explore Premium</button>
-            <button class="badge badge2"><i class="fa-solid fa-circle-down"></i> Install App</button> 
-            <i class="fa-solid fa-user" style="color: #ffffff;"></i>
-         </div>
-          
+          <div class="c">
+            <img src="./images/backward_icon.png" alt="backword" />
+            <img src="./images/forward_icon.png" class="hide" alt="forword" />
+          </div>
+          <div class="sticy-nav-options">
+            <button class="badge hide">Explore Premium</button>
+            <button class="badge badge2">
+              <i class="fa-solid fa-circle-down"></i> Install App
+            </button>
+            <i class="fa-solid fa-user" style="color: #ffffff"></i>
+          </div>
         </div>
-        
-        <div class="cards"></div>
+
+        <h2>Resantly Played</h2>
+        <div class="card-container">
+        <div class="card">
+          <img src="images/card1img.jpeg" class="card-img" alt="" />
+          <p class="card-title">Made in India:Global Hits</p>
+          <p class="card-info">Your daily updates of the most played...</p>
+        </div>
       </div>
-       <!--main end -->
 
+        <h2>Editor's Pick</h2>
+        <div class="card-container">
+        <div class="card">
+          <img src="images/4.png" class="card-img" alt="" />
+          <p class="card-title">India : Global Hits</p>
+          <p class="card-info">Relax with soulful Bollywood vibes.</p>
+        </div>
 
+        <div class="card">
+          <img src="images/card3img.jpeg" class="card-img" alt="" />
+          <p class="card-title">Lofi Classics</p>
+          <p class="card-info">Timeless beats for study or chill.</p>
+        </div>
 
+        <div class="card">
+          <img src="images/card4img.jpeg" class="card-img" alt="" />
+          <p class="card-title">Telugu Hits</p>
+          <p class="card-info">Trending Telugu songs ruling charts.</p>
+        </div>
 
-      <div class="music-player">music player</div>
+        <div class="card">
+          <img src="images/card5img.jpeg" class="card-img" alt="" />
+          <p class="card-title">Top Songs Global</p>
+          <p class="card-info">Most streamed tracks worldwide today.</p>
+        </div>
+        </div>
+
+     
+        <h2>Resantly Played</h2>
+        <div class="card-container">
+        <div class="card">
+          <img src="images/card6img.jpeg" class="card-img" alt="" />
+          <p class="card-title">Top Songs - India</p>
+          <p class="card-info">Your daily updates of the most played...</p>
+        </div>
+
+         <div class="card">
+          <img src="images/1.png" class="card-img" alt="" />
+          <p class="card-title">Viral 50 </p>
+          <p class="card-info">Your daily updates of the most played...</p>
+        </div>
+
+         <div class="card">
+          <img src="./images/3.png" class="card-img" alt="" />
+          <p class="card-title">International</p>
+          <p class="card-info">Your daily updates of the most played...</p>
+        </div>
+      </div>
+
+          
+      <br>
+      <br>
+      <br>
+      <br>
+      </div>
+      </div>
+     
+      <!--main end -->
+
+     
     </div>
+    
   </body>
 </html>
